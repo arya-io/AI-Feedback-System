@@ -37,7 +37,7 @@ The **AI Feedback System** is a web application that interacts with users to hel
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/arya-ai/ai-feedback-system.git
+   git clone https://github.com/arya-io/ai-feedback-system.git
 2. Navigate to the project directory:
    ```bash
    cd ai-feedback-system
