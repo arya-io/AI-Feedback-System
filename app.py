@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # Set up the LLM
 llm = ChatGroq(temperature=0.7, groq_api_key=st.secrets["groq_api_key"], model_name="llama3-70b-8192")
 
-st.title("AI Beginner Quiz Mentor")
+st.title("AI Feedback System")
 st.write("This app will ask you a beginner-level AI question and provide feedback on your answer.")
 
 question = ChatPromptTemplate.from_messages(
